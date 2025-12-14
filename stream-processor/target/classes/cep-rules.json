@@ -1,0 +1,16 @@
+[
+    {
+        "ruleName": "TabSwitchBurst",
+        "eventType": "TAB_SWITCH",
+        "threshold": 3,
+        "windowSeconds": 10,
+        "scoreImpact": 20
+    },
+    {
+        "ruleName": "FrequentFocusLoss",
+        "eventType": "FOCUS_LOST",
+        "threshold": 5,
+        "windowSeconds": 60,
+        "scoreImpact": 15
+    }
+]
